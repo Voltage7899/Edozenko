@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewTour"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/addCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Страна" />
+        <EditText
+            android:id="@+id/addNameTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название тура" />
+
+        <EditText
+            android:id="@+id/addPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Цена" />
+
+        <EditText
+            android:id="@+id/addData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Дата" />
+
+        <EditText
+            android:id="@+id/addNumberNight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Количество ночей" />
+
+        <EditText
+            android:id="@+id/addLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ссылка на картинку" />
+
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/addd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Добавить" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

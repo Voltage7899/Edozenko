@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "784123426299",
+    "project_id": "edozenko-2f722",
+    "storage_bucket": "edozenko-2f722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784123426299:android:d0fb1a83edbb49180f075e",
+        "android_client_info": {
+          "package_name": "com.example.edozenko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784123426299-juhllf9es2mj9fpe85at6olt6t1nqneb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edozenko",
+            "certificate_hash": "01e39568b596bc4fec30a43a78401c09b9ed164d"
+          }
+        },
+        {
+          "client_id": "784123426299-m0ii9s4a6jl5iuchon9fp2ofdu2h2icf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBRXI7fNC_AeQI2rL_IffKzItKaRxJC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784123426299-m0ii9s4a6jl5iuchon9fp2ofdu2h2icf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
