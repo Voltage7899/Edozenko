@@ -41,6 +41,7 @@ class Tours : AppCompatActivity() {
                     }
 
                 }
+                tourListAdapter?.loadListToAdapter(list)
             }
 
             override fun onCancelled(error: DatabaseError) {

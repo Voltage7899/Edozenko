@@ -41,9 +41,11 @@ class MainActivity : AppCompatActivity(),RecyclerAdapterCountry.ClickListener {
                     val country= i.getValue(Country::class.java)
                     if(country!=null){
                         list.add(country)
+
                     }
 
                 }
+                countryListAdapter?.loadListToAdapter(list)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -69,6 +71,7 @@ class MainActivity : AppCompatActivity(),RecyclerAdapterCountry.ClickListener {
                     }
 
                 }
+                countryListAdapter?.loadListToAdapter(list)
             }
 
             override fun onCancelled(error: DatabaseError) {

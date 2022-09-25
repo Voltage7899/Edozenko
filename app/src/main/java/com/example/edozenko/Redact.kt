@@ -39,6 +39,7 @@ class Redact : AppCompatActivity() {
                     }
 
                 }
+                tourListAdapter?.loadListToAdapter(list)
             }
 
             override fun onCancelled(error: DatabaseError) {
